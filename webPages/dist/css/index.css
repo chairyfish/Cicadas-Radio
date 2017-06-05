@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-size: 3.9vw;
+  overflow: hidden;
+}
+img {
+  cursor: pointer;
+}
+body {
+  width: 25.62rem;
+  height: 41.19696rem;
+  overflow: hidden;
+}
+#panel {
+  position: absolute;
+  width: 9.5648rem;
+  height: 41.19696rem;
+  background: #494949;
+}
+#panel #musicList {
+  width: 9.5648rem;
+}
+#panel #musicList li {
+  width: 9.5648rem;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.3416rem;
+  font-size: 1.22976rem;
+  line-height: 1.22976rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+#panel #musicList li:first-child {
+  border: none;
+}
+#panel #uploadFiles {
+  position: absolute;
+  bottom: 0.6832rem;
+  right: 0.6832rem;
+  width: 2.7328rem;
+  height: 2.7328rem;
+}
+#panel #fileInput {
+  opacity: 0;
+  position: absolute;
+  bottom: 0.6832rem;
+  right: 0.6832rem;
+  width: 2.7328rem;
+  height: 2.7328rem;
+}
+#wrap {
+  position: relative;
+  width: 25.62rem;
+  height: 41.19696rem;
+  overflow: hidden;
+}
+#wrap .header .first-bg {
+  width: 25.62rem;
+  height: 34.5016rem;
+  position: absolute;
+  z-index: 0.1;
+  background: #94c2c1;
+}
+#wrap .header #menu-btn {
+  width: 2.0496rem;
+  height: 2.0496rem;
+  position: absolute;
+  z-index: 1;
+  top: 0.3416rem;
+  left: 0.5124rem;
+}
+#wrap .header .FM-bg {
+  width: 13.664rem;
+  height: 13.664rem;
+  position: absolute;
+  z-index: 1;
+  top: 3.416rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#wrap .header span {
+  color: #ffffff;
+  font-size: 2.0496rem;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  width: 8.1984rem;
+  top: 8.54rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+#wrap #pullWrap {
+  width: 25.62rem;
+  height: 5.4656rem;
+  position: absolute;
+  bottom: 5.4656rem;
+}
+#wrap #pullWrap #second-bg {
+  width: 25.62rem;
+  height: 5.8072rem;
+  background: #94c2c1;
+  position: absolute;
+  z-index: 1;
+  bottom: 5.4656rem;
+  border-bottom: 1px #000000 solid;
+}
+#wrap #pullWrap #second-bg #pull-btn {
+  z-index: 1;
+  width: 3.7576rem;
+  position: absolute;
+  bottom: 0.5124rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#wrap #pullWrap #changeRate {
+  width: 25.62rem;
+  height: 5.4656rem;
+  background: #3b6862;
+  position: absolute;
+  z-index: 0.1;
+}
+#wrap .footer {
+  position: absolute;
+  width: 25.62rem;
+  height: 5.4656rem;
+  background: #94c2c1;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap .footer img {
+  width: 3.7576rem;
+  height: 3.7576rem;
+}
