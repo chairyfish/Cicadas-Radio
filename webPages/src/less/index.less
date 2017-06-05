@@ -1,0 +1,152 @@
+@rem: 0.03416rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-size: 3.9vw;
+  overflow: hidden;
+}
+img {
+  cursor: pointer;
+}
+body {
+  width: 750*@rem;
+  height: 1206*@rem;
+  overflow: hidden;
+}
+#panel {
+  position: absolute;
+  width: 280*@rem;
+  height: 1206*@rem;
+  background: #494949;
+  #musicList {
+    width: 280*@rem;
+    li {
+      width: 280*@rem;
+      color: #ffffff;
+      text-align: center;
+      font-weight: 400;
+      text-align: center;
+      padding: 10*@rem;
+      font-size: 36*@rem;
+      line-height: 36*@rem;
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+    }
+    li:first-child {
+      border: none;
+    }
+  }
+  #uploadFiles {
+    position: absolute;
+    bottom: 20*@rem;
+    right: 20*@rem;
+    width: 80*@rem;
+    height: 80*@rem;
+  }
+  #fileInput {
+    opacity: 0;
+    position: absolute;
+    bottom: 20*@rem;
+    right: 20*@rem;
+    width: 80*@rem;
+    height: 80*@rem;
+  }
+}
+
+#wrap {
+  position: relative;
+  width: 750*@rem;
+  height: 1206*@rem;
+  overflow: hidden;
+  .header {
+    .first-bg {
+      width: 750*@rem;
+      height: 1010*@rem;
+      position: absolute;
+      z-index: 0.1;
+      background: #94c2c1;
+    }
+    #menu-btn {
+      width: 60*@rem;
+      height: 60*@rem;
+      position: absolute;
+      z-index: 1;
+      top: 10*@rem;
+      left: 15*@rem;
+    }
+    .FM-bg {
+      width: 400*@rem;
+      height: 400*@rem;
+      position: absolute;
+      z-index: 1;
+      top: 100*@rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+    span {
+      color: #ffffff;
+      font-size: 60*@rem;
+      font-weight: bold;
+      position: absolute;
+      z-index: 1;
+      width: 240*@rem;
+      top: 250*@rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  #pullWrap {
+    width: 750*@rem;
+    height: 160*@rem;
+    position: absolute;
+    bottom: 160*@rem;
+    #second-bg {
+      width: 750*@rem;
+      height: 170*@rem;
+      background: #94c2c1;
+      position: absolute;
+      z-index: 1;
+      bottom: 160*@rem;
+      border-bottom: 1px #000000 solid;
+      #pull-btn {
+        position: absolute;
+        z-index: 1;
+        width: 110*@rem;
+        position: absolute;
+        bottom: 15*@rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+    #changeRate {
+      width: 750*@rem;
+      height: 160*@rem;
+      background: #3b6862;
+      position: absolute;
+      z-index: 0.1;
+    }
+  }
+  .footer {
+    position: absolute;
+    width: 750*@rem;
+    height: 160*@rem;
+    background: #94c2c1;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      img {
+      width: 110*@rem;
+      height: 110*@rem;
+    }
+  }
+}

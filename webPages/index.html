@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height">
+    <title>禅眠</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/changeRate.css">
+    <link rel="stylesheet" href="css/audioCanvas.css">
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/index.js" ></script>
+    <script src="js/changeRate.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+    <script src="js/audioCanvas.js"></script>
+    <script src="js/upload.js" ></script>
+  </head>
+  <body>
+
+    <section id="panel" >
+      <ul id="musicList" >
+
+      </ul>
+      <img src="imgs/uploadFiles.png" alt="上传" id="uploadFiles" >
+      <input type="file"  id="fileInput" >
+    </section>
+
+    <section id="wrap" >
+
+      <div class="header">
+        <div class="first-bg"></div>
+        <img src="imgs/menuBtn.png" alt="菜单" id="menu-btn" >
+        <img src="imgs/FMbg.png" alt="FM频道" class="FM-bg" >
+        <span>
+          <p class="FMname" >FM</p>
+          <p id="FMRate" >93.0</p>
+        </span>
+      </div>
+
+      <svg id="audioCanvas" >
+          <defs>
+              <linearGradient id="loaderGradient">
+                  <stop offset="0%" stop-color="#6bd0e4" />
+                  <stop offset="33%" stop-color="#604eb1" />
+                  <stop offset="66%" stop-color="#c88e66" />
+                  <stop offset="100%" stop-color="#c955a9" />
+              </linearGradient>
+          </defs>
+      </svg>
+
+      <div id="pullWrap">
+        <div id="second-bg" >
+          <img src="imgs/pullBtn.png" alt="点击" id="pull-btn" >
+        </div>
+        <div id="changeRate" >
+          <div class="mui-content">
+            <div id="main" >
+              <div id="track" ></div>
+              <div id="contain" >
+                <div id="value" ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <img src="imgs/playBtn.png" alt="播放" id="play-btn" >
+      </div>
+
+    </section>
+
+  </body>
+</html>
